@@ -31,7 +31,7 @@ nav li {
     
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
-    
+    background-size: cover;
     
 }
 
@@ -56,7 +56,7 @@ nav li {
 .banner-content {
     text-align: right;
     font-size: 16px;
-    padding: 0px 200px 32px 876px;
+    padding: 0px 200px 32px 1245px;
 }
 
 .btn-banner-content {
@@ -64,6 +64,58 @@ nav li {
     padding: 0px 200px 262px;
 }
 
-.year {
-    display: flex;
+
+.year-head {
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+    /* padding: 370px 0px 24px 862px; */
+    text-align: left;
+    margin-right: 200px;
 }
+
+.year-content {
+    /* padding: 0px 0px 16px 876px; */
+    font-weight: 400;
+    font-size: 16px;
+    color:  #444343;
+    margin-right: 150px;
+}
+
+.serial {
+    color:  #444343;
+        font-size: 16px;
+        font-weight: 400;
+    /* padding: 0px 80px 16px 862px; */
+}
+
+
+.loser-img  ul li::marker {
+    
+    content: '✓';
+    color: green;
+}
+
+.loser-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+    margin-top: 170px;
+    margin-right: 250px;
+    margin-left: 250px;
+    
+
+    
+}
+
+/* .loser-img .loser-img-c {
+    
+    max-width: 1000px;
+    float: left;
+} */
+/* 
+.loser-img ul {
+    margin-right: 250px;
+} */
+
